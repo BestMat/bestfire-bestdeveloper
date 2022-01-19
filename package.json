@@ -1,0 +1,24 @@
+{
+  "name": "bestfire",
+  "version": "1.0.0",
+  "description": "A test framework created using Node and Selenium.",
+  "main": "bestfire.js",
+  "scripts": {
+    "test": "node index.js",
+    "options": "node options.js"
+  },
+  "keywords": [
+    "bestfire"
+  ],
+  "author": "Yuvanth B",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "express": "^4.17.1",
+    "prompts": "^2.4.1",
+    "puppeteer": "^10.2.0",
+    "selenium-webdriver": "*",
+    "webdriverio": "^7.12.4"
+  }
+}
