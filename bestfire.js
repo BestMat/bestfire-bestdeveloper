@@ -161,6 +161,5 @@ const window = async function(browserName, url, callback) {
         if (err) consola.error(err);
     });
     f()
-window("edge", "https://www.youtube.com/", function (options){
-    options.location().redirect("https://netflix.com")
-})
+// to test your application, view BestCloud/BestDodger documentation.
+// WARNING: DON'T IMPORT IN A REACT APPLICATION
